@@ -9,7 +9,7 @@ for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do
 done
 
 apt update
-apt install -y install ca-certificates curl gnupg
+apt install -y ca-certificates curl gnupg
 
 install -m 0755 -d /etc/apt/keyrings
 
